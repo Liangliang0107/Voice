@@ -25,7 +25,7 @@ ParaFormerPath_En: Null  # 英文语音模型
 TokensPath_En: Null  # 英文语音模型
 ```
 
-### 1. 源码安装方式（windows + python 3.10）
+### 1.$\color{#FF0000}{*推荐}$  源码安装方式（windows + python 3.10）
 
 ```sh
 pip install -r requirements.txt
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### 2. 懒人包方法
+### 2. 懒人包方法（打包的不是最新的版本哈 推荐使用源码自行打包）
 
 懒人包由 nuitka 编译
 
