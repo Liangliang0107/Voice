@@ -8,15 +8,26 @@
 
 $\color{#FF0000}{本项目仅用于研究语音验证码的识别，请勿用于非法，出问题作者不承担任何责任}$ 
 
-$\color{#FF0000}{不支持长音频识别}$，需要使用长音频识别请使用 [CapsWriter](https://github.com/HaujetZhao/CapsWriter-Offline)
+$\color{#FF0000}{不支持长音频识别}$​，需要使用长音频识别请使用 [CapsWriter](https://github.com/HaujetZhao/CapsWriter-Offline)
 
 支持 ``中英`` 两张语言识别
 
 个人建议不启用标点模型（因为太慢了,也没啥用）
 
+服务器请选择GPU服务器个人测试到 没有GPU的服务器好慢
+
+|            处理器             |   显卡   |            速度             |              |
+| :---------------------------: | :------: | :-------------------------: | :----------: |
+|      I7-11800H @ 2.3GHz       | RTX 3050 | 毫秒级（看上图 没具体测试） | 个人的笔记本 |
+| Inter Xeon Gold 6148 @ 2.4GHz |    无    |          10s 以上           |    服务器    |
+
+测试对 某验，某象 的语音验证码识别是没有问题的
+
 ## 食用方法
 
 无论是源码方式还是懒人包都需要下载模型
+
+
 
 默认加载所有语音模型  不需要的请修改配置文件：
 
@@ -60,7 +71,7 @@ nuitka --onefile --standalone --include-package=uvicorn --include-package=fastap
 ```yaml
 host: '0.0.0.0'  # 监听地址
 port: 4563  # 监听端口
-title: VoiceServer
+title: VoiceServer # 标题
 SaveCache: False # 保存文件缓存
 ForMatPunc: False  # 处理标点符号（开启这个会加载标点模型）
 ForMatSpell: True # 处理空格
