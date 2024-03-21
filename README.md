@@ -150,3 +150,10 @@ result = requests.post('http://127.0.0.1/api/asr', json={
 print(result)
 ```
 
+## 打赏
+
+非常感谢你的支持
+
+![wx](./README.assets/wx.jpg)
+
+![zfb](./README.assets/zfb.jpg)
