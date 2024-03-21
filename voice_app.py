@@ -93,7 +93,7 @@ def Voice_Test(AudioPath, Language='zh'):
         logger.error(f'未加载模型文件{Language},请先加载模型文件后进行识别')
         return
 
-    # 生成一个任务ID
+    # 生成一个任务ID 用于日志显示
     TaskID = uuid.uuid4()
 
     AudioData = Audio2Float32(AudioPath)
