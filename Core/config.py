@@ -24,11 +24,11 @@ SYSTEM = platform.system()
 sys_args = {
     "host": '0.0.0.0',
     "port": 4563,
+    "SaveCache": False,
     "title": "VoiceServer",
     "ForMatPunc": False,
     "ForMatSpell": True,
     "ForMatNum": True,
-    "SaveCache": False,
     "ModelPath": str((Path() / 'models').resolve()),
     "ParaFormerPath_Zh": str((Path() / 'models' / 'paraformer-offline-zh' / 'model.onnx').resolve()),
     "TokensPath_Zh": str((Path() / 'models' / 'paraformer-offline-zh' / 'tokens.onnx').resolve()),
