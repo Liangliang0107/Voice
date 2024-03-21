@@ -36,7 +36,7 @@ ParaFormerPath_En: Null  # 英文语音模型
 TokensPath_En: Null  # 英文语音模型
 ```
 
-### 1.$\color{#FF0000}{*推荐}$  源码安装方式（windows + python 3.10）
+### 1.``**推荐**``  源码安装方式（windows + python 3.10）
 
 ```sh
 pip install -r requirements.txt
