@@ -91,10 +91,10 @@ cli_args.__dict__.update({
     "ForMatSpell": cli_args.ForMatSpell,
     "ForMatNum": cli_args.ForMatNum,
     "ModelPath": str(Path(cli_args.ModelPath).resolve()),
-    "ParaFormerPath_Zh": str(Path(cli_args.ParaFormerPath_Zh).resolve()),
-    "TokensPath_Zh": str(Path(cli_args.TokensPath_Zh).resolve()),
-    "ParaFormerPath_En": str(Path(cli_args.ParaFormerPath_En).resolve()),
-    "TokensPath_En": str(Path(cli_args.TokensPath_En).resolve()),
+    "ParaFormerPath_Zh": str(Path(cli_args.ParaFormerPath_Zh).resolve()) if cli_args.ParaFormerPath_Zh else '',
+    "TokensPath_Zh": str(Path(cli_args.TokensPath_Zh).resolve()) if cli_args.TokensPath_Zh else '',
+    "ParaFormerPath_En": str(Path(cli_args.ParaFormerPath_En).resolve()) if cli_args.ParaFormerPath_En else '',
+    "TokensPath_En": str(Path(cli_args.TokensPath_En).resolve()) if cli_args.TokensPath_En else '',
     "PuncModelPath": str(Path(cli_args.PuncModelPath).resolve())
 })
 

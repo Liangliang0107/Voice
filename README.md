@@ -18,6 +18,13 @@ $\color{#FF0000}{不支持长音频识别}$，需要使用长音频识别请使�
 
 无论是源码方式还是懒人包都需要下载模型
 
+默认加载所有语音模型  不需要的请修改配置文件：
+
+```yaml
+ParaFormerPath_En: Null  # 英文语音模型
+TokensPath_En: Null  # 英文语音模型
+```
+
 ### 1. 源码安装方式（windows + python 3.10）
 
 ```sh

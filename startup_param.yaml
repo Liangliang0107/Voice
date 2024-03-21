@@ -6,6 +6,8 @@ ForMatNum: True # 转换数字
 ModelPath: ./models # 模型文件夹
 ParaFormerPath_Zh: ${ModelPath}/paraformer-offline-zh/model.onnx  # 中文语音模型
 TokensPath_Zh: ${ModelPath}/paraformer-offline-zh/tokens.txt  # 中文语音模型
-ParaFormerPath_En: ${ModelPath}/paraformer-offline-en/model.onnx  # 英文语音模型
-TokensPath_En: ${ModelPath}/paraformer-offline-en/tokens.txt  # 英文语音模型
+#ParaFormerPath_En: ${ModelPath}/paraformer-offline-en/model.onnx  # 英文语音模型
+#TokensPath_En: ${ModelPath}/paraformer-offline-en/tokens.txt  # 英文语音模型
+ParaFormerPath_En: Null  # 英文语音模型
+TokensPath_En: Null  # 英文语音模型
 PuncModelPath: ${ModelPath}/punc_ct-transformer_cn-en  # 标点模型
