@@ -154,6 +154,4 @@ print(result)
 
 非常感谢你的支持
 
-![wx](./README.assets/wx.jpg)
-
-![zfb](./README.assets/zfb.jpg)
+![wx](./resource/wx.jpg)
