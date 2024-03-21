@@ -1,0 +1,12 @@
+fastapi==0.110.0
+funasr_onnx==0.2.5
+jieba==0.42.1
+loguru==0.7.2
+onnx==1.15.0
+pydantic==2.6.4
+pypinyin==0.51.0
+rich==13.7.1
+sherpa_onnx==1.9.12
+srt==3.5.3
+typer==0.9.0
+uvicorn==0.29.0

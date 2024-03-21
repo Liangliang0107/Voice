@@ -1,0 +1,12 @@
+2024-03-21 18:04:56 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 400, 'method': 'POST', 'url': '/api/asr', 'msg': 'There was an error parsing the body'}
+2024-03-21 19:14:15 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:14:27 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:14:53 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:15:16 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:15:55 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:16:04 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:16:47 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:19:28 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:30:42 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:32:31 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
+2024-03-21 19:32:54 | WARNING  | fastapi_app:HTTPExceptHandel:29 - {'code': 422, 'method': 'POST', 'url': '/api/asr', 'msg': 'Unprocessable Entity'}
