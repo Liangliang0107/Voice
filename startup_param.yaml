@@ -1,6 +1,6 @@
 host: '0.0.0.0'  # 监听地址
 port: 4563  # 监听端口
-title: VoiceServer
+title: VoiceServer # 标题
 SaveCache: False # 保存文件缓存
 ForMatPunc: False  # 处理标点符号（开启这个会加载标点模型）
 ForMatSpell: True # 处理空格
